@@ -1791,8 +1791,10 @@ textarea.form-control {
     stroke-dashoffset: -136px;
   }
 }
+
+
 .testimonials{
-	background-color: #f33f02;
+	background-color: white;
 	position: relative;
 	padding-top: 80px;
 	&:after{
@@ -1861,4 +1863,5 @@ textarea.form-control {
 .owl-carousel .owl-next {
   right: -70px;
 }
+
 

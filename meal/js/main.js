@@ -164,7 +164,7 @@ AOS.init({
         nav:true,
         autoplayTimeout: 8500,
         smartSpeed: 450,
-        navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+        navText: ['<i class="fa fa-caret-left"></i>','<i class="fa fa-caret-right"></i>'],
         responsive: {
           0: {
             items: 1
