@@ -152,8 +152,7 @@ AOS.init({
 	  console.log('show');
 	});
 
-  jQuery(document).ready(function($) {
-    "use strict";
+
     $('#customers-testimonials').owlCarousel( {
         loop: true,
         center: true,
@@ -164,8 +163,8 @@ AOS.init({
         nav:true,
         autoplayTimeout: 8500,
         smartSpeed: 450,
-        navText: ['<i class="fa fa-caret-left" style="font-size:66px;color:red"></i>',
-                  '<i class="fa fa-caret-right" style="font-size:66px;color:red"></i>'],
+        navText: ['<i class="fa fa-caret-left"></i>',
+                  '<i class="fa fa-caret-right"></i>'],
         responsive: {
           0: {
             items: 1
@@ -178,7 +177,7 @@ AOS.init({
           }
         }
       });
-    });
+
 
 	// home slider
 	$('.home-slider').owlCarousel({
