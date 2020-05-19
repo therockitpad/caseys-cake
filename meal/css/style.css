@@ -1791,3 +1791,64 @@ textarea.form-control {
     stroke-dashoffset: -136px;
   }
 }
+
+
+.testimonials{
+	background-color: #fff;
+	position: relative;
+	padding-top: 0px;
+
+}
+#customers-testimonials {
+	.item-details{
+		background-color: #333333;
+		color: #fff;
+		padding: 20px 10px;
+		text-align: left;
+		h5{
+			margin: 0 0 15px;
+			font-size: 18px;
+			line-height: 18px;
+			span{
+				color: red;
+				float:right;
+				padding-right: 20px;
+			}
+		}
+		p{
+			font-size: 14px;
+		}
+	}
+	.item {
+			text-align: center;
+			// padding: 20px;
+			margin-bottom:80px;
+	}
+}
+
+.owl-nav i {
+  font-size: 52px;
+  color: #000;
+}
+
+.owl-carousel .owl-nav .owl-prev{
+  margin-left: -70px;
+}
+
+.owl-carousel .owl-nav .owl-next{
+  margin-right: -70px;
+}
+
+.owl-carousel .owl-nav [class*='owl-'] {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.owl-carousel .owl-nav [class*='owl-'].disabled:hover {
+  background-color: #D6D6D6;
+}
+.owl-carousel {
+  position: relative;
+}
+
+
+
