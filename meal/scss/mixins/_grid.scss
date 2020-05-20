@@ -23,8 +23,10 @@
 @mixin make-row() {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin-right: ($grid-gutter-width / -2);
   margin-left: ($grid-gutter-width / -2);
+  
 }
 
 @mixin make-col-ready() {
