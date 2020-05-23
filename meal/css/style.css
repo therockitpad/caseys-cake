@@ -264,7 +264,7 @@ textarea.form-control {
 .btn {
   text-transform: uppercase;
   letter-spacing: .2em;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 700;
 }
 
@@ -1664,7 +1664,7 @@ textarea.form-control {
 .ftco-footer {
   background: #121212;
   padding: 7em 0;
-  font-size: 15px;
+  font-size: 10px;
   font-weight: 400;
 }
 
