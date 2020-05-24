@@ -697,9 +697,9 @@ textarea.form-control {
 }
 
 
-.social-network a.icoFacebook:hover {
+/* .social-network a.icoFacebook:hover {
 	background-color:#3B5998;
-}
+} */
 
 .social-circle li a {
 	display:inline-block;
@@ -741,15 +741,15 @@ textarea.form-control {
 }
 
 ul.social-network {
-	list-style: none;
+	/* list-style: none; */
 	display: inline;
-	margin-left:0 !important;
-	padding: 0;
+	/* margin-left:0 !important; */
+	/* padding: 0; */
 }
 
 ul.social-network li {
 	display: inline;
-	margin: 0 5px;
+	margin: 0 55rem;
 }
 
 /* .footer-contact-widget .contact-email {
@@ -1688,6 +1688,27 @@ ul.social-network li {
 .categories li.active a, .sidelink li.active a {
   color: #000;
   font-style: italic;
+}
+
+/* footer */
+
+.page-footer {
+  background-color: #2b2d30;
+}
+
+#footer-title {
+  font-size: 25px;
+} 
+
+.font-weight-bold {
+  color: #fff;
+}
+
+
+.hours-operation {
+  color: #fff;
+  font-size: 17px;
+  padding-top: 20px;
 }
 
 /* .ftco-footer-newsletter .form-group {
