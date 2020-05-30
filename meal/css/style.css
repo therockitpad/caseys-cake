@@ -194,7 +194,7 @@ textarea.form-control {
   position: fixed;
   padding: 1em 30px;
   top: 0;
-  background: rgb(191, 48, 187);
+  background: #fff;
   -webkit-transition: .0s all ease;
   -o-transition: .0s all ease;
   transition: .0s all ease;
@@ -1641,7 +1641,7 @@ textarea.form-control {
 /* footer */
 
 .page-footer {
-  background-color: rgb(191, 48, 187);
+  background-color: #2b2d30;
 }
 
 #footer-title {
