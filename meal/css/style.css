@@ -333,11 +333,11 @@ textarea.form-control {
   font-size: 50px;
 }
 
-@media (max-width: 991.98px) {
-  .section-heading h2 {
-    font-size: 30px;
+  @media (max-width: 991.98px) {
+    .section-heading h2 {
+      font-size: 30px;
+    }
   }
-}
 
 .section-heading .sub-heading {
   font-size: 20px;
@@ -369,12 +369,12 @@ textarea.form-control {
   width: 40%;
 }
 
-@media (max-width: 767.98px) {
-  .media > a {
-    width: 100%;
-    margin-bottom: 30px;
+  @media (max-width: 767.98px) {
+    .media > a {
+      width: 100%;
+      margin-bottom: 30px;
+    }
   }
-}
 
 .media.media-bg-white {
   -webkit-box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.1);
@@ -590,6 +590,25 @@ textarea.form-control {
   color: #000;
   margin-left: 10px;
 }
+
+
+/* .main-wrap .cover_1 .img_bg {
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+  .main-wrap .cover_1 .img_bg {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    background-attachment: inherit;
+  }
+} */
+
 
 .site-tab-nav {
   display: block;
