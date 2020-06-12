@@ -266,6 +266,10 @@ textarea.form-control {
   background: #000 !important;
 }
 
+/* h2.heading.mb-5 {
+  font-size: 90px;
+} */
+
 .btn {
   text-transform: uppercase;
   letter-spacing: .2em;
@@ -719,15 +723,6 @@ textarea.form-control {
 
 .menu-food-item p:last-child {
   margin-bottom: 0;
-}
-
-#myBtn.btn-xl {
-  font-size: 17px;
-  border-radius: 10px;
-}
-#myBtn.btn {
-  background-color: #808080;
-  
 }
 
 .page-footer {   
