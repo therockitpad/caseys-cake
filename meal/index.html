@@ -353,6 +353,7 @@
         padding: 40px;
         border: 1px solid #888;
         width: 80%;
+        height: 70%;
       }
       
       /* The Close Button */
@@ -370,6 +371,24 @@
         cursor: pointer;
       }
 
+      .modal-guts {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+        overflow: auto;
+        padding: 100px 60px 80px 60px;
+}
+
+      @media only screen and (max-width: 991.98px) {
+        .col-md-4, #myBtn{
+          display: flex;
+          align-content:space-around;
+    }
+  }
+
       @media only screen and (max-width: 600px) {
       .modal, .modal-content {
         display: flex;
@@ -383,8 +402,8 @@
       
 
       <!-- Trigger/Open The Modal -->
-      <div class="col-md-4 right" style="margin-left:380px">
-      <button id="myBtn" class="btn btn-primary btn-outline-primary btn-block btn-flex justify-content-center">More...</button>
+      <div class="mx-auto" style="margin-left:380px">
+      <button id="myBtn" class="btn btn-primary btn-outline-primary btn-flex justify-content-center">More...</button>
       </div>
       <!-- The Modal -->
       <div id="myModal" class="modal">
@@ -396,7 +415,84 @@
         right: 75px;
         left: 40px;">
           <span class="close">&times;</span>
-          <p>Some text in the Modal..</p>
+          <div class="container modal-guts"> 
+              <ul class="row"> 
+                 <ul class="col-sm-4">
+                    <h4><strong>Cake Style</strong></h4>
+                      <li>Amaretto</li>
+                      <li>Vanilla</li>
+                      <li>Chocolate</li>
+                      <li>German Chocolate</li>
+                      <li>Raspberry</li>
+                      <li>Strawberry</li>
+                      <li>Coconut</li>
+                      <li>Marble</li>
+                      <li>Almond</li>
+                      <li>Pineapple</li>
+                      <li>Apricot</li>
+                      <li>Yellow</li>
+                      <li>Chocolate Raspberry</li>
+                      <li>Caramel</li>
+                      <li>Lemon</li>
+                      <li>Dreamsicle (orange, vanilla)</li>
+                  </ul>
+                 <ul class="col-sm-4">
+                    <h4><strong>Specialty Cake Flavor</strong></h4>
+                    <li>Carrot</li>
+                    <li>Spice</li>
+                    <li>Red Velvet</li>
+                    <li>Cream De Menthe</li>
+                    <li>Pistachio (contains nuts)</li>
+                    <li>Rum Cake</li>
+                    <li>Chocolate Rum</li>
+                    <li>Pumpkin</li>
+                    <li>Key Lime</li>
+                    <li>Margarita</li>
+                    <li>Apple</li>
+                    <li>Rocky Road (contains nuts)</li>
+                    <li>Blackberry</li>
+                 </ul>
+                 <ul class="col-sm-4">
+                    <h4><strong>Pound Cake</strong></h4>
+                    <li>Chocolate</li>
+                    <li>Lemon</li>
+                    <li>Coconut</li>
+                    <li>Sour Cream</li>
+                    <li>Sour Cream Almond</li>
+                 </ul>
+                 <ul class="col-sm-4" style="height:50px;">
+                  <br /><br />
+                    <h4><strong>Frostings</strong></h4>
+                    <li>Buttercream</li>
+                    <li>Butter Almond</li>
+                    <li>Cream Cheese/li>
+                    <li>Coconut</li>
+                    <li>German Chocolate</li>
+                    <li>Lemon</li>
+                    <li>Strawberry</li>
+                    <li>Cinnamon</li>
+                 </ul>
+                 <ul class="col-sm-4">
+                    <br /><br />
+                    <h4><strong>Fillings</strong></h4>
+                    <li>Chocolate Cream</li>
+                    <li>Apricot</li>
+                    <li>Penut Butter</li>
+                    <li>Mint</li>
+                    <li>Raspberry</li>
+                    <li>Marscarpone</li>
+                    <li>Chocolate Ganache</li>
+                    <li>Lime</li>
+                    <li>Blackberry</li>
+                    <li>Chocolate Hazelnut</li>
+                    <li>Lemon</li>
+                    <li>Mocha</li>
+                    <li>Orange Cream</li>
+                    <li>Strawberry</li>
+                 </ul>
+                 <!-- <p>**Nut, raisins, coconut flakes, chocolate chips, etc... added upon request</p> -->
+              </div> 
+           </div>
         </div>
       
       </div>
