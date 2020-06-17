@@ -8,7 +8,9 @@
 .carousel {
     position: initial;
     padding-block-end: 17%;
+   
   }
+
   .carousel-item img {
     object-fit: cover;
   }
